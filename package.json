@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node server"
+    "start": "babel-node server",
+    "build": "babel-node server/*.js -d dist"
   },
   "dependencies": {
     "axios": "0.13.1",
@@ -34,5 +35,9 @@
     "babel-cli": "^6.26.0"    
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "npm": "5.3.0",
+    "node": "6.11.0"
+  }
 }
