@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node server",
-    "build": "babel-node server/*.js -d dist"
+    "build": "webpack"
   },
   "dependencies": {
     "axios": "0.13.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "bcrypt": "^0.8.7",
     "bluebird": "^3.4.1",
@@ -32,7 +35,7 @@
     "redux-thunk": "^2.1.0",
     "shortid": "^2.2.6",
     "validator": "^5.4.0",
-    "babel-cli": "^6.26.0"    
+    "webpack": "^3.6.0"
   },
   "author": "",
   "license": "ISC",
