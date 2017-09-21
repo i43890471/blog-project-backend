@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node server",
-    "build": "webpack",
     "migrate": "knex migrate:latest --knexfile server/knexfile.js"
   },
   "dependencies": {
@@ -35,8 +34,7 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "shortid": "^2.2.6",
-    "validator": "^5.4.0",
-    "webpack": "^3.6.0"
+    "validator": "^5.4.0"
   },
   "author": "",
   "license": "ISC",
