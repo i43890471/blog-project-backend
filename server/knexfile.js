@@ -38,8 +38,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'postgres://xbhofoqqelqxpv:6ab4c9a6fb10c3e0befd8b6fa31969a7cc9f7f088ec875baf33bf53271eec4df@ec2-54-235-254-251.compute-1.amazonaws.com:5432/dfud36j1eg2jm3',
-      user:     'postgres',
-      password: 'byteball-gngt'
+      user:     'username',
+      password: 'password'
     },
     pool: {
       min: 2,
